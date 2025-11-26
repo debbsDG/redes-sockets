@@ -12,3 +12,11 @@ Ambos programas usan la librería Winsock de Windows (`winsock2.h`).
 ```bash
 gcc servidor.c -o servidor.exe -lws2_32
 gcc cliente.c -o cliente.exe -lws2_32
+
+
+referencias:
+Usé la librería Winsock (winsock2.h) que es la forma estándar de manejar sockets en Windows.
+
+Me basé en la documentación oficial de sockets TCP/IPv4.
+
+Usé MSYS2 para compilar con GCC.
